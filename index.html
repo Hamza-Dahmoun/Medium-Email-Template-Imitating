@@ -106,7 +106,46 @@
 
         .article-container{
             margin-bottom: 8%; margin-top:8%;
+            clear:both;
+            min-height:120px;max-height: 120px; height:120px;
         }
+        .article-container .article-img-container{
+            max-width:18%;margin-left: 0%; margin-right:0%;
+            margin-top:10px;margin-bottom:10px;
+            padding: 0%;
+            float:left;
+        }
+        .article-container .article-img-container img{
+            height:100px; width:100px;
+            min-height:100px; min-width:100px;
+            max-height:100px; max-width:100px;
+        }
+        .article-container .article-details-container{
+            max-width: 80%;margin-left: 0%; margin-right:0%;
+            margin-top:5px;margin-bottom:10px;
+            padding: 0%;
+            float: right;
+        }
+        .article-container .article-title p {
+            font-size: 19px;
+            line-height: 25px;
+            font-weight: 900;
+            color: #1C1C1C;
+            margin-bottom: 5px/*0.3%*/;
+            margin-top: 0px/*1%*/;
+        }
+        .article-container .article-summary p {
+            font-size: 15px;
+            line-height: 25px;
+            margin-bottom: 5px/*0.3%*/;
+            margin-top: 5px/*1%*/;
+        }
+        .articles-info{
+            margin-top:0; margin-bottom:0px;
+            font-size: 15px;
+        }
+        
+
     </style>
 </head>
 
@@ -139,18 +178,23 @@
                     min read</p>
             </div>
             <div class="article-container">
-                <a class="article-img"
-                    href="https://read.acloud.guru/remember-that-86-million-license-plate-scanner-i-replicated-heres-what-happened-next-9f3c64e8f22b"><img
-                        alt="article image" src="https://miro.medium.com/max/2489/1*HwbifravoUSXmONi7UUemg.jpeg"></a>
-                <a class="article-title"
-                    href="https://read.acloud.guru/remember-that-86-million-license-plate-scanner-i-replicated-heres-what-happened-next-9f3c64e8f22b">
-                    <p>Remember the $86 million license plate scanner I replicated?</p>
-                </a>
-                <p class="article-summary">I caught someone with it</p>
-                <p class="articles-info"><a class="author-name" href="https://medium.com/@taitems">Tait Brown</a> in
-                    <a class="field-name" href="https://read.acloud.guru/">A Cloud Guru</a><img alt="star"
-                        src="https://ci5.googleusercontent.com/proxy/BWQxaNTf44teTKkE9ppQVJU1-ezz0siU-vkhe332KMMVV_AFWxcaYWMZT_Sk3HPOcIJ5FoB1GsbsW35FXrLA8KomJ2MAlcwUeZzQ67Fe4IH1aQS-wQ=s0-d-e1-ft#https://cdn-images-1.medium.com/proxy/1*dMba6LR4dsoQTHzQ5T7oaA.png">11
-                    min read</p>
+                <div class="article-img-container">
+                        <a class="article-img"
+                        href="https://read.acloud.guru/remember-that-86-million-license-plate-scanner-i-replicated-heres-what-happened-next-9f3c64e8f22b">
+                        <img
+                            alt="article image" src="https://miro.medium.com/max/2489/1*HwbifravoUSXmONi7UUemg.jpeg"></a>
+                </div>                
+                <div class="article-details-container">
+                        <a class="article-title"
+                        href="https://read.acloud.guru/remember-that-86-million-license-plate-scanner-i-replicated-heres-what-happened-next-9f3c64e8f22b">
+                        <p>Remember the $86 million license plate scanner I replicated?</p>
+                    </a>
+                    <p class="article-summary">I caught someone with it I caught someone with it I caught someone with it I caught someone with it</p>
+                    <p class="articles-info"><a class="author-name" href="https://medium.com/@taitems">Tait Brown</a> in
+                        <a class="field-name" href="https://read.acloud.guru/">A Cloud Guru</a><img alt="star"
+                            src="https://ci5.googleusercontent.com/proxy/BWQxaNTf44teTKkE9ppQVJU1-ezz0siU-vkhe332KMMVV_AFWxcaYWMZT_Sk3HPOcIJ5FoB1GsbsW35FXrLA8KomJ2MAlcwUeZzQ67Fe4IH1aQS-wQ=s0-d-e1-ft#https://cdn-images-1.medium.com/proxy/1*dMba6LR4dsoQTHzQ5T7oaA.png">11
+                        min read</p>
+                </div>
             </div>
             <div class="article-container">
                 <a class="article-img"
