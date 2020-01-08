@@ -205,6 +205,27 @@
         br {
             margin-top: 20px;
         }
+
+        #topics-setting-area{
+            width:100%;
+            text-align:center;
+            margin-bottom: 15%; margin-top:0%;
+        }
+        #topics-setting-area #set-topics-button{
+            text-decoration: none;
+            color: #03a87c;
+            border: 1px solid #03a87c;
+            border-radius: 4px;
+            padding: 10px 25px 10px 25px;
+            font-size: 15px;
+            
+        }
+        #topics-setting-area #topics-setting-msg{
+            margin-bottom:30px;
+            font-weight:bold;
+            font-size:18px;
+            letter-spacing: 1px;
+        }
     </style>
 </head>
 
@@ -608,8 +629,11 @@
             </div>
             <br />
 
-            <p>Make this email better.</p>
-            <a class="set-topics-button" href="#" target="_blank">Tailor your topics</a>
+            <div id="topics-setting-area">
+                    <p id="topics-setting-msg">Make this email better.</p>
+                    <a id="set-topics-button" href="#" target="_blank">Tailor your topics</a>
+            </div>
+            
         </div>
 
         <div id="#footer">
