@@ -59,12 +59,18 @@
             font-size: 18px;
             letter-spacing: 1px;
             color: #000000;
-            display:inline;
+            display: inline;
         }
 
         .big-article-container {
             margin-top: 4%;
             margin-bottom: 8%;
+        }
+        .big-article-container .article-img-container{
+            background-size: cover;
+            background-repeat: no-repeat;
+            height:300px;width:100%;
+            background-position: 50% 50%;
         }
 
         .big-article-container a {
@@ -113,22 +119,36 @@
         }
 
         .article-container .article-img-container {
-            max-width: 18%;
+            /*max-width: 18%;*/
             margin-left: 0%;
             margin-right: 0%;
             margin-top: 10px;
             margin-bottom: 10px;
             padding: 0%;
             float: left;
-        }
-
-        .article-container .article-img-container img {
             height: 100px;
             width: 100px;
             min-height: 100px;
             min-width: 100px;
             max-height: 100px;
             max-width: 100px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        .article-container .article-img-container img {
+            /*height: 100px;
+            width: 100px;
+            min-height: 100px;
+            min-width: 100px;
+            max-height: 100px;
+            max-width: 100px;*/
+            height: 120px;
+            width: 120px;
+            min-height: 120px;
+            min-width: 120px;
+            max-height: 120px;
+            max-width: 120px;
         }
 
         .article-container .article-details-container {
@@ -172,19 +192,19 @@
             font-size: 15px;
         }
 
-        .follow-button{
-            text-decoration:none;
+        .follow-button {
+            text-decoration: none;
             color: #03a87c;
-            border:1px solid #03a87c;
+            border: 1px solid #03a87c;
             border-radius: 3px;
-            padding: 2px 22px 2px 22px; 
+            padding: 2px 22px 2px 22px;
             margin-left: 20px;
-            font-size:15px;
-        }
-        br{
-            margin-top:20px;
+            font-size: 15px;
         }
 
+        br {
+            margin-top: 20px;
+        }
     </style>
 </head>
 
@@ -200,9 +220,11 @@
             <h2><strong>Today's highlights</strong></h2>
 
             <div class="big-article-container">
-                <a class="article-img"
-                    href="https://medium.com/javascript-scene/how-popular-is-javascript-in-2019-823712f7c4b1"><img
-                        alt="article image" src="https://miro.medium.com/max/2048/1*p1P9Jn05gLadD46vBcOcDw.jpeg"></a>
+                <div class="article-img-container" style="background-image: url(https://ci6.googleusercontent.com/proxy/sNd7CIuxzkORgLQr66fySHwT8BHaue2tUgE8UhntYCGVqX-tA7E2jmqn66-sjshunSypTEewB2U7Se8y98XweCXDaJxIUUKdomXPBaihFQFCZCjXUL8OQl8BU4FI5AI46PvE=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/600/600/1*p1P9Jn05gLadD46vBcOcDw.jpeg?q=50">
+                    <a class="article-img"
+                    href="https://medium.com/javascript-scene/how-popular-is-javascript-in-2019-823712f7c4b1"></a>
+                </div>
+                
                 <a class="article-title"
                     href="https://medium.com/javascript-scene/how-popular-is-javascript-in-2019-823712f7c4b1">
                     <p><strong>How Popular is JavaScript in 2019?</strong></p>
@@ -217,11 +239,10 @@
                     min read</p>
             </div>
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image:url(https://ci3.googleusercontent.com/proxy/c57gGRBWtGS-Fw_55Vt0jWoYprIxhrgB-HIrxnxxzoZg5XGh0PGhkUfPTHGcOBl_PVbPWlMb520_MK2fXM3qV1dKcJiKDl-2fyjossJnBqa47gRZTDFdWUsT9EDOqOt4uPsf=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*HwbifravoUSXmONi7UUemg.jpeg?q=50)">
                     <a class="article-img"
-                        href="https://read.acloud.guru/remember-that-86-million-license-plate-scanner-i-replicated-heres-what-happened-next-9f3c64e8f22b">
-                        <img alt="article image"
-                            src="https://miro.medium.com/max/2489/1*HwbifravoUSXmONi7UUemg.jpeg"></a>
+                        href="https://read.acloud.guru/remember-that-86-million-license-plate-scanner-i-replicated-heres-what-happened-next-9f3c64e8f22b"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title"
@@ -237,10 +258,10 @@
                 </div>
             </div>
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image:url(https://ci6.googleusercontent.com/proxy/4g34Z0adpbwlHJePIX--mjYRrQG4ZbN1E9vybgOHrR7TVXZITfGafszhCyCUpTeyN2ce7ehbMk0GiIepwBs_ydAIYk7F0nhyss3XZ2zf6Fu329xYOkBs0ioaeuloVgk_-t8=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*QArabuDNONpmHDx9TQLckw.png?q=50)">
                     <a class="article-img"
-                        href="https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710"><img
-                            alt="article image" src="https://miro.medium.com/max/1600/1*QArabuDNONpmHDx9TQLckw.png"></a>
+                        href="https://medium.com/cracking-the-data-science-interview/the-10-operating-system-concepts-software-developers-need-to-remember-480d0734d710"></a>
 
                 </div>
                 <div class="article-details-container">
@@ -264,10 +285,10 @@
 
             </div>
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image:url(https://ci3.googleusercontent.com/proxy/cgJ2GR4pC01o8pCotTuHNQLt8ZHTovCC2lZPorH7cnYu1W9TqHtRtzyQEWAJOUce7vAiBdtagPycdP1AC3VV1Zzm7NWs6wXg6gO9Mz8wNUmTsHTUyPFbEw=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/0*fIeXYmS8CeZO6uHk?q=50)">
                     <a class="article-img"
-                        href="https://psiloveyou.xyz/i-catfished-someone-half-my-age-764dcb076c5a"><img
-                            alt="article image" src="https://miro.medium.com/max/3888/0*fIeXYmS8CeZO6uHk"></a>
+                        href="https://psiloveyou.xyz/i-catfished-someone-half-my-age-764dcb076c5a"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title" href="https://psiloveyou.xyz/i-catfished-someone-half-my-age-764dcb076c5a">
@@ -283,16 +304,15 @@
                         min read</p>
                 </div>
             </div>
-            <br/>
+            <br />
 
             <h2>In case you missed it</h2>
             <hr />
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image:url(https://ci3.googleusercontent.com/proxy/NHdXtBNX3OwPG8m4CFEM9tkVwa4O6_pz3vy9SrEYP3lSrEEaJO6HntnR-V0LtTLCcKZjj1ER512cche7TN6BI2nJlWO1I6eJ92yo60ltqYFhmY8D5oiFRA_G5rPuXc7vNtsm=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*6bahVKpXQ5GkBji8n_oG4w.jpeg?q=50)">
                     <a class="article-img"
-                        href="https://medium.com/swlh/working-at-amazon-software-engineer-4d491f2d0f7e"><img
-                            alt="article image"
-                            src="https://miro.medium.com/max/1200/1*6bahVKpXQ5GkBji8n_oG4w.jpeg"></a>
+                        href="https://medium.com/swlh/working-at-amazon-software-engineer-4d491f2d0f7e"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title"
@@ -306,16 +326,15 @@
                         min read</p>
                 </div>
             </div>
-            <br/>
+            <br />
 
             <h2>Quick Reads</h2>
             <hr />
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image:url(https://ci5.googleusercontent.com/proxy/MgbeKh3Flq-DpgC5uNNwv_ERnOYR7CO1whXNMCBNzlVTBdDn1LZydzyRuKM3ubH03ZbGhKZVRiftGzAaj4K6En31yUnuJ88G0vKY011Rz7zGE56Cj-pkj4venIL___AuhgDg=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*AaLHOV-vtCmGLWfANWr0IQ.jpeg?q=50)">
                     <a class="article-img"
-                        href="https://medium.com/@mattlillywhite/5-ways-to-become-more-attractive-3f0407e14908"><img
-                            alt="article image"
-                            src="https://miro.medium.com/max/3888/1*AaLHOV-vtCmGLWfANWr0IQ.jpeg"></a>
+                        href="https://medium.com/@mattlillywhite/5-ways-to-become-more-attractive-3f0407e14908"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title"
@@ -331,11 +350,10 @@
                 </div>
             </div>
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image:url(https://ci5.googleusercontent.com/proxy/zJ6pdyPt7_YcxA6lq-rKPhQ10A90k0t4V_s3qzhY3Evh8E6uRxRvZr71BI6mPmTujkLPnDS6NI8gvyHOlhb_k8ajUa3yiSllCsdXJLj851huzLiqcKIosjooKIXrE-aiH0az=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*y-cqIrQZbpR2M8aRUNCYuA.jpeg?q=50)">
                     <a class="article-img"
-                        href="https://medium.com/the-ascent/how-to-use-solomons-paradox-to-make-better-decisions-f7f443c7d4df"><img
-                            alt="article image"
-                            src="https://miro.medium.com/max/3000/1*y-cqIrQZbpR2M8aRUNCYuA.jpeg"></a>
+                        href="https://medium.com/the-ascent/how-to-use-solomons-paradox-to-make-better-decisions-f7f443c7d4df"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title"
@@ -354,16 +372,16 @@
                         min read</p>
                 </div>
             </div>
-            <br/>
+            <br />
 
             <h2>Best in Software Engineering</h2>
             <a class="follow-button" href="#" target="_blank">Follow</a>
             <hr />
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image:url(https://ci4.googleusercontent.com/proxy/lSK4Z9LlkOUlTF-UVOwNduG3G8xEXIoZWzxy5KtWLnThu9wv2HWoq7VL0vNyKyrrBu9Cp_FqcSjx326Tw5SWoN8L7h6X_xinTNzR-LPE6DylPQ7v-f88FGQi7VsVgIcGqhnXNfVyVGM=s0-d-e1-ft#https://cdn-images-1.medium.com/focal/420/420/44/16/1*Mx0csaFA9hBKCIFfU6JASg.png?q=50)">
                     <a class="article-img"
-                        href="https://medium.com/swlh/want-to-learn-a-new-programming-language-consider-go-golang-1c32dc3788ba"><img
-                            alt="article image" src="https://miro.medium.com/max/600/1*Mx0csaFA9hBKCIFfU6JASg.png"></a>
+                        href="https://medium.com/swlh/want-to-learn-a-new-programming-language-consider-go-golang-1c32dc3788ba"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title"
@@ -380,16 +398,16 @@
                         min read</p>
                 </div>
             </div>
-            <br/>
+            <br />
 
             <h2>Best in Programming</h2>
             <a class="follow-button" href="#" target="_blank">Follow</a>
             <hr />
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image:url(https://ci4.googleusercontent.com/proxy/WZ_TQhsGutPB0tTlgoi642oj48laJAfNI5yVDn70ef4xCJlt3FCVyP-wcrsGUQ9OPQaJZ9rkiiKds3x65M7Z6wmEvvLmXV5AtBPSlyjPyvVB_rkl0LCVofXCVQ1q-ia86As=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*NjY4JgM2ZJ8W8KbOyTiCBQ.png?q=50)">
                     <a class="article-img"
-                        href="https://towardsdatascience.com/the-top-language-to-learn-in-2020-f69bd918925a"><img
-                            alt="article image" src="http://i3.ytimg.com/vi/okKXNwx8yHc/maxresdefault.jpg"></a>
+                        href="https://towardsdatascience.com/the-top-language-to-learn-in-2020-f69bd918925a"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title"
@@ -406,11 +424,10 @@
                 </div>
             </div>
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image:url(https://ci4.googleusercontent.com/proxy/uKphxIkcJRxNaSRZFO1NYAm26J3qlYgoW_3KlGJf9wkxd6mForDjhdkXJ-hvAiYKR6VWzXykj8EtOP0-XT_kTiSwUXgXGR2qY9-xZJgv9R-zCgC1Ey5v2mU8KEyJQe9NJr-6=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*sY77VQEyI1Dbm_RnO0bxIA.jpeg?q=50)">
                     <a class="article-img"
-                        href="https://towardsdatascience.com/top-7-modern-programming-language-to-learn-now-156863bd1eec"><img
-                            alt="article image"
-                            src="https://miro.medium.com/max/3000/1*sY77VQEyI1Dbm_RnO0bxIA.jpeg"></a>
+                        href="https://towardsdatascience.com/top-7-modern-programming-language-to-learn-now-156863bd1eec"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title"
@@ -429,18 +446,17 @@
                         min read</p>
                 </div>
             </div>
-            <br/>
+            <br />
 
 
             <h2>Best in Work</h2>
             <a class="follow-button" href="#" target="_blank">Follow</a>
             <hr />
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image:url(https://ci3.googleusercontent.com/proxy/h5EgNgLZUfsO24dZTsMaDVmqGbwVr7I3lsSnscMaP7reYukx0ysnh9q5VDEHVEr2tiX8fkNe6S7C4-cF2NQ8jOd8R3sLRH-N41BA6OTjOGWE5u1b475XzcqUXVz7HDwHh8s4=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*FfrLqhXcpC_HYA1OtxnjDA.jpeg?q=50)">
                     <a class="article-img"
-                        href="https://forge.medium.com/how-to-run-a-good-one-on-one-meeting-3d2e92f0ee57"><img
-                            alt="article image"
-                            src="https://miro.medium.com/max/10417/1*FfrLqhXcpC_HYA1OtxnjDA.jpeg"></a>
+                        href="https://forge.medium.com/how-to-run-a-good-one-on-one-meeting-3d2e92f0ee57"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title"
@@ -456,7 +472,7 @@
                         min read</p>
                 </div>
             </div>
-            <br/>
+            <br />
 
 
 
@@ -464,10 +480,10 @@
             <a class="follow-button" href="#" target="_blank">Follow</a>
             <hr />
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image: url(https://ci5.googleusercontent.com/proxy/lVmeK8K_9UsUTzrv41Yvd-tg4Kp6NJWZuwFOOkyaPrFl4FGrAQLwRor1c8vmS42Vom_LaBKH8etJhWfcYVDXrQtlwPJmI3R4wjteZqyRIJfNu02eOk5m9Q=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/0*q9-s-lgjGyhphKiP?q=50)">
                     <a class="article-img"
-                        href="https://medium.com/javascript-in-plain-english/whats-coming-to-javascript-in-2020-c2a02cf52d01"><img
-                            alt="article image" src="https://miro.medium.com/max/5184/0*q9-s-lgjGyhphKiP"></a>
+                        href="https://medium.com/javascript-in-plain-english/whats-coming-to-javascript-in-2020-c2a02cf52d01"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title"
@@ -485,10 +501,10 @@
                 </div>
             </div>
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image: url(https://ci5.googleusercontent.com/proxy/o6XAMGPNm3w-GleGUT0mFOk4vo-0rqUX6AlSuskuQ7qVlDZ4qA2QQcSf6ORK5Dde_b8qux7yC4VvXCmJEMNXC52E7KYeEsK-hxSZgiwGTmFXtZDYmsdje0m8k9pelbuQUAY=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*y6C4nSvy2Woe0m7bWEn4BA.png?q=50)">
                     <a class="article-img"
-                        href="https://codeburst.io/react-js-for-beginners-the-basics-87ef6e54dae7"><img
-                            alt="article image" src="https://miro.medium.com/max/1200/1*y6C4nSvy2Woe0m7bWEn4BA.png"></a>
+                        href="https://codeburst.io/react-js-for-beginners-the-basics-87ef6e54dae7"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title" href="https://codeburst.io/react-js-for-beginners-the-basics-87ef6e54dae7">
@@ -504,11 +520,11 @@
                 </div>
             </div>
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image: url(https://ci6.googleusercontent.com/proxy/7GVBNRIh7tjgA0-WT3Rjj1Bka5UNdg5hSRWK9OGAQ4qVcvgJxAyim6mhtEMZpUtklexPsPfDt9CwAVjTQqH3pE4B2v3sKUMJX36JCUs24pGCcV8Z4RuAulSHKv66HD3_qX4S=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*IgibDrFNaLtUZp7ZyaJ-5w.jpeg?q=50">
                     <a class="article-img"
-                        href="https://medium.com/javascript-in-plain-english/reports-of-the-virtual-doms-death-are-greatly-exaggerated-2206d00beead"><img
-                            alt="article image"
-                            src="https://miro.medium.com/max/1440/1*IgibDrFNaLtUZp7ZyaJ-5w.jpeg"></a>
+                        href="https://medium.com/javascript-in-plain-english/reports-of-the-virtual-doms-death-are-greatly-exaggerated-2206d00beead">
+                    </a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title"
@@ -525,17 +541,16 @@
                         min read</p>
                 </div>
             </div>
-            <br/>
+            <br />
 
 
             <h2>Most read</h2>
             <hr />
             <div class="article-container">
-                <div class="article-img-container">
+                <div class="article-img-container"
+                    style="background-image: url(https://ci6.googleusercontent.com/proxy/fYI9pX6CRu1KNS4cdTU6Urx_62skoISnH94p28o1BNrUUdm8fs8csYxSjou5Bv31HRGJ8XdI6hwsaaNeSo5mZfqdhaOB7KFKI6dV_ToP0FZTLMcflDoXYZl2fWOzbomXAAqRiVNYLE_v=s0-d-e1-ft#https://cdn-images-1.medium.com/focal/420/420/50/37/1*7M8X6ZbcftelY-1BRRhc6Q.jpeg?q=50)">
                     <a class="article-img"
-                        href="https://humanparts.medium.com/im-not-weird-you-re-weird-b88bc9ed6621"><img
-                            alt="article image"
-                            src="https://miro.medium.com/max/2400/1*7M8X6ZbcftelY-1BRRhc6Q.jpeg"></a>
+                        href="https://humanparts.medium.com/im-not-weird-you-re-weird-b88bc9ed6621"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title"
@@ -551,10 +566,9 @@
                 </div>
             </div>
             <div class="article-container">
-                <div class="article-img-container">
-                    <a class="article-img" href="https://humanparts.medium.com/peak-again-27e09501b1df"><img
-                            alt="article image"
-                            src="https://miro.medium.com/fit/c/2048/799/1*vqcEWUhDf36TJvNEK4wtLw.jpeg"></a>
+                <div class="article-img-container"
+                    style="background-image: url(https://ci3.googleusercontent.com/proxy/YD5vEaotJjLgJLtpO8H7NOglQhw4WmlHC4wwHWHhB-LDE3YhhFq4r1phQzSvwc-U4gSk0J5pNKNwsTuw4Oc5saBtcfBo_sPAGEH0pdc-Ol8za_86JVEcS09nZVUDqm8q0Gks=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*vqcEWUhDf36TJvNEK4wtLw.jpeg?q=50)">
+                    <a class="article-img" href="https://humanparts.medium.com/peak-again-27e09501b1df"></a>
                 </div>
                 <div class="article-details-container">
                     <a class="article-title" href="https://humanparts.medium.com/peak-again-27e09501b1df">
@@ -569,13 +583,15 @@
                         min read</p>
                 </div>
             </div>
-            <br/>
+            <br />
 
             <h2>Editor's picks</h2>
             <div class="big-article-container">
-                <a class="article-img"
-                    href="https://marker.medium.com/bloomberg-wants-to-show-trump-voters-theyre-economically-left-behind-c7908e4f98d3"><img
-                        alt="article image" src="https://miro.medium.com/max/7360/1*pjTa78pBYDEEy75nSLCkBw.jpeg"></a>
+                <div class="article-img-container"
+                    style="background-image: url(https://ci4.googleusercontent.com/proxy/LLFaRZXSyJDNGEAKmaWAxFHwY_2UQDxL3Nd6UfFR0jIIFbgF6msJacZK7uYOofd3QFvRejPPaFaG3Uyi1WX_CG-Fy6DOnNK9IlN6ysy4Vhant6c6rue2ahWUsPfw4D5sH_L6Ck41VqEa=s0-d-e1-ft#https://cdn-images-1.medium.com/focal/600/600/62/39/1*pjTa78pBYDEEy75nSLCkBw.jpeg?q=50)">
+                    <a class="article-img"
+                        href="https://marker.medium.com/bloomberg-wants-to-show-trump-voters-theyre-economically-left-behind-c7908e4f98d3"></a>
+                </div>
                 <a class="article-title"
                     href="https://marker.medium.com/bloomberg-wants-to-show-trump-voters-theyre-economically-left-behind-c7908e4f98d3">
                     <p>The candidate released a plan to support entrepreneurs and small businesses, dovetailed with
@@ -590,7 +606,7 @@
                         src="https://ci5.googleusercontent.com/proxy/BWQxaNTf44teTKkE9ppQVJU1-ezz0siU-vkhe332KMMVV_AFWxcaYWMZT_Sk3HPOcIJ5FoB1GsbsW35FXrLA8KomJ2MAlcwUeZzQ67Fe4IH1aQS-wQ=s0-d-e1-ft#https://cdn-images-1.medium.com/proxy/1*dMba6LR4dsoQTHzQ5T7oaA.png">4
                     min read</p>
             </div>
-            <br/>
+            <br />
 
             <p>Make this email better.</p>
             <a class="set-topics-button" href="#" target="_blank">Tailor your topics</a>
