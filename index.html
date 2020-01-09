@@ -66,10 +66,12 @@
             margin-top: 4%;
             margin-bottom: 8%;
         }
-        .big-article-container .article-img-container{
+
+        .big-article-container .article-img-container {
             background-size: cover;
             background-repeat: no-repeat;
-            height:300px;width:100%;
+            height: 300px;
+            width: 100%;
             background-position: 50% 50%;
             cursor: pointer;
         }
@@ -115,9 +117,8 @@
         }
 
         .article-container .article-img-container {
-            /*max-width: 18%;*/
             margin-left: 0%;
-            margin-right: 0%;
+            margin-right: 5px;
             margin-top: 10px;
             margin-bottom: 10px;
             padding: 0%;
@@ -131,21 +132,6 @@
             background-size: cover;
             background-repeat: no-repeat;
             cursor: pointer;
-        }
-
-        .article-container .article-img-container img {
-            /*height: 100px;
-            width: 100px;
-            min-height: 100px;
-            min-width: 100px;
-            max-height: 100px;
-            max-width: 100px;*/
-            height: 120px;
-            width: 120px;
-            min-height: 120px;
-            min-width: 120px;
-            max-height: 120px;
-            max-width: 120px;
         }
 
         .article-container .article-details-container {
@@ -205,65 +191,85 @@
             margin-top: 20px;
         }
 
-        #topics-setting-area{
-            width:100%;
-            text-align:center;
-            margin-bottom: 15%; margin-top:0%;
+        #topics-setting-area {
+            width: 100%;
+            text-align: center;
+            margin-bottom: 15%;
+            margin-top: 0%;
         }
-        #topics-setting-area #set-topics-button{
+
+        #topics-setting-area #set-topics-button {
             text-decoration: none;
             color: #03a87c;
             border: 1px solid #03a87c;
             border-radius: 4px;
             padding: 10px 25px 10px 25px;
             font-size: 15px;
-            
-        }
-        #topics-setting-area #topics-setting-msg{
-            margin-bottom:30px;
-            font-weight:bold;
-            font-size:18px;
-            letter-spacing: 1px;
-        }
-        #footer{
-            background-color:#e2eff8;
-            width:100%;
-            text-align:center;
-            padding-top:35px;
-            padding-bottom: 15px;
-        }
-        
-        #footer #footer-msg{
-            font-size: 22px; font-weight:bolder;
-            margin-bottom: 22px;
-            color:#333332;
-        }
-        
-        #footer .app-stores-link{
-            width: 155px; height: 55px;
-            margin-left: 5px; margin-right:5px;
-        }
-        #footer img{
-            height: 45px;
-            width:150px;
+
         }
 
-        #footer hr{
-            border-top: 1px solid #6E6E6E;
-            width:70%;
+        #topics-setting-area #topics-setting-msg {
+            margin-bottom: 30px;
+            font-weight: bold;
+            font-size: 18px;
+            letter-spacing: 1px;
         }
-        #footer-contacts{
-            font-size:13px;
-            margin-bottom: 5px; margin-top: 5px;
-        }        
-        .footer-links{
-            color:#6E6E6E;
+
+        #footer {
+            background-color: #e2eff8;
+            width: 100%;
+            text-align: center;
+            padding-top: 35px;
+            padding-bottom: 15px;
+        }
+
+        #footer #footer-msg {
+            font-size: 22px;
+            font-weight: bolder;
+            margin-bottom: 22px;
+            color: #333332;
+        }
+
+        #footer .app-stores-link {
+            width: 155px;
+            height: 55px;
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+
+        #footer img {
+            height: 45px;
+            width: 150px;
+        }
+
+        #footer hr {
+            border-top: 1px solid #6E6E6E;
+            width: 70%;
+        }
+
+        #footer-contacts {
+            font-size: 13px;
+            margin-bottom: 5px;
+            margin-top: 5px;
+        }
+
+        .footer-links {
+            color: #6E6E6E;
             cursor: pointer;
             text-decoration: underline;
         }
-        #footer #footer-links-container{
-            margin-top:0px; margin-bottom: 0px;
+
+        #footer #footer-links-container {
+            margin-top: 0px;
+            margin-bottom: 0px;
             font-size: 12px;
+        }
+
+        @media (max-width:600px) {
+            /*layout remains the same, img & text size gets decreased*/
+            #wrapper {
+                margin: 2% 2%;
+            }
         }
     </style>
 </head>
@@ -280,11 +286,12 @@
             <h2><strong>Today's highlights</strong></h2>
 
             <div class="big-article-container">
-                <div class="article-img-container" style="background-image: url(https://ci6.googleusercontent.com/proxy/sNd7CIuxzkORgLQr66fySHwT8BHaue2tUgE8UhntYCGVqX-tA7E2jmqn66-sjshunSypTEewB2U7Se8y98XweCXDaJxIUUKdomXPBaihFQFCZCjXUL8OQl8BU4FI5AI46PvE=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/600/600/1*p1P9Jn05gLadD46vBcOcDw.jpeg?q=50">
+                <div class="article-img-container"
+                    style="background-image: url(https://ci6.googleusercontent.com/proxy/sNd7CIuxzkORgLQr66fySHwT8BHaue2tUgE8UhntYCGVqX-tA7E2jmqn66-sjshunSypTEewB2U7Se8y98XweCXDaJxIUUKdomXPBaihFQFCZCjXUL8OQl8BU4FI5AI46PvE=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/600/600/1*p1P9Jn05gLadD46vBcOcDw.jpeg?q=50">
                     <a class="article-img"
-                    href="https://medium.com/javascript-scene/how-popular-is-javascript-in-2019-823712f7c4b1"></a>
+                        href="https://medium.com/javascript-scene/how-popular-is-javascript-in-2019-823712f7c4b1"></a>
                 </div>
-                
+
                 <a class="article-title"
                     href="https://medium.com/javascript-scene/how-popular-is-javascript-in-2019-823712f7c4b1">
                     <p><strong>How Popular is JavaScript in 2019?</strong></p>
@@ -299,7 +306,8 @@
                     min read</p>
             </div>
             <div class="article-container">
-                <div class="article-img-container" style="background-image:url(https://ci3.googleusercontent.com/proxy/c57gGRBWtGS-Fw_55Vt0jWoYprIxhrgB-HIrxnxxzoZg5XGh0PGhkUfPTHGcOBl_PVbPWlMb520_MK2fXM3qV1dKcJiKDl-2fyjossJnBqa47gRZTDFdWUsT9EDOqOt4uPsf=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*HwbifravoUSXmONi7UUemg.jpeg?q=50)">
+                <div class="article-img-container"
+                    style="background-image:url(https://ci3.googleusercontent.com/proxy/c57gGRBWtGS-Fw_55Vt0jWoYprIxhrgB-HIrxnxxzoZg5XGh0PGhkUfPTHGcOBl_PVbPWlMb520_MK2fXM3qV1dKcJiKDl-2fyjossJnBqa47gRZTDFdWUsT9EDOqOt4uPsf=s0-d-e1-ft#https://cdn-images-1.medium.com/fit/c/420/420/1*HwbifravoUSXmONi7UUemg.jpeg?q=50)">
                     <a class="article-img"
                         href="https://read.acloud.guru/remember-that-86-million-license-plate-scanner-i-replicated-heres-what-happened-next-9f3c64e8f22b"></a>
                 </div>
@@ -668,23 +676,28 @@
             <br />
 
             <div id="topics-setting-area">
-                    <p id="topics-setting-msg">Make this email better.</p>
-                    <a id="set-topics-button" href="#" target="_blank">Tailor your topics</a>
+                <p id="topics-setting-msg">Make this email better.</p>
+                <a id="set-topics-button" href="#" target="_blank">Tailor your topics</a>
             </div>
-            
+
         </div>
 
         <div id="footer">
             <p id="footer-msg">Take Medium with you.</p>
-            <a class="app-stores-link" href="https://apps.apple.com/app/medium-everyones-stories/id828256236" target="_blank"><img
+            <a class="app-stores-link" href="https://apps.apple.com/app/medium-everyones-stories/id828256236"
+                target="_blank"><img
                     src="https://ci3.googleusercontent.com/proxy/igHy99Rf5BXMMY_CEcHQuqRbmtp_0tGzYYR5csD7r3GOS0IkAVWfpa1jAodU5Of0sS_YSqsejJGMe1MKRC_cSRnbsTEGW4BrXTZr15owcwSXRDqLX5hrPw=s0-d-e1-ft#https://cdn-images-1.medium.com/proxy/1*CXKdDEfFShoF6Azy5V8ZKQ@2x.png"></a>
 
-            <a class="app-stores-link" href="https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3Demail_digestFooter"
+            <a class="app-stores-link"
+                href="https://play.google.com/store/apps/details?id=com.medium.reader&referrer=utm_source%3Demail_digestFooter"
                 target="_blank"><img
                     src="https://ci5.googleusercontent.com/proxy/msIag6RYmE1z2OjrBFh7_OxMVwwfLX9xVvYcS_iI3jtVzBEExMHgzQb1Qjb_IZquunpi9GvlqG45ERt4N1OOiojD68Q0N8b8H22sJmmFRfZVksLQ7gdvHg=s0-d-e1-ft#https://cdn-images-1.medium.com/proxy/1*D-oULOaPtKR8A1jatsII4w@2x.png"></a>
             <hr />
-            <p id="footer-contacts">Sent by <a class="footer-links">Medium</a> · P.O. Box 602, San Francisco, CA 94104-0602</p>
-            <p id="footer-links-container"><a class="footer-links">Unsubscribe</a> · <a class="footer-links">Switch to the Weekly Digest</a> · <a class="footer-links">Careers</a> · <a class="footer-links">Help center</a> ·
+            <p id="footer-contacts">Sent by <a class="footer-links">Medium</a> · P.O. Box 602, San Francisco, CA
+                94104-0602</p>
+            <p id="footer-links-container"><a class="footer-links">Unsubscribe</a> · <a class="footer-links">Switch to
+                    the Weekly Digest</a> · <a class="footer-links">Careers</a> · <a class="footer-links">Help
+                    center</a> ·
                 <a class="footer-links">Privacy policy</a></p>
         </div>
     </div>
